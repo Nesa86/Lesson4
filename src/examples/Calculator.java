@@ -2,6 +2,8 @@ package examples;
 
 import javax.swing.JOptionPane;
 
+
+
 public class Calculator {
 
 	public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class Calculator {
 
 		if (method == 0) {
 			String number1 = JOptionPane.showInputDialog("First number?");
-			String number2 = JOptionPane.showInputDialog("First number?");
+			String number2 = JOptionPane.showInputDialog("Second number?");
 			int number1AsInt = Integer.parseInt(number1);
 			int number2AsInt = Integer.parseInt(number2);
 			JOptionPane.showMessageDialog(null, "The answer is: " + new Calculator().add(number1AsInt, number2AsInt));
